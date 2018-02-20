@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageSpanSample</string>
+    <string name="align_baseline">ALIGN_BASELINE:</string>
+    <string name="align_default">ALIGN_DEFAULT:</string>
+    <string name="align_bottom">ALIGN_BOTTOM:</string>
+    <string name="align_custom">ALIGN_CUSTOM:</string>
+</resources>

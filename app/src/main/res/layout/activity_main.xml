@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/bg_main_item_divider"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:showDividers="middle"
+    tools:context="ink.unkindleds.imagespansample.MainActivity">
+
+    <TextView
+        android:id="@+id/basic"
+        style="@style/MainItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageSpan 基本使用"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/custom"
+        style="@style/MainItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义 ImageSpan"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
